@@ -73,6 +73,22 @@ h1 {
 .foobar h2 {
     color:#00ff19;
     text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px, rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 2.91581px 0px, rgb(0, 0, 0) -0.287171px 2.98622px 0px, rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px, rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px, rgb(0, 0, 0) -2.94502px -0.571704px 0px, rgb(0, 0, 0) -2.59586px -1.50383px 0px, rgb(0, 0, 0) -1.96093px -2.27041px 0px, rgb(0, 0, 0) -1.11013px -2.78704px 0px, rgb(0, 0, 0) -0.137119px -2.99686px 0px, rgb(0, 0, 0) 0.850987px -2.87677px 0px, rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px, rgb(0, 0, 0) 2.88051px -0.838247px 0px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid rgb(255, 255, 255); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: auto; /* Gives that scrolling effect as the typing happens */
+    animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+    width: auto;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    border-right: 0.1em solid black;
+    position: relative;
+    top: 120px;
+    font-size: 1.25em;
+    font-family: "Red Hat Mono", monospace;
+    overflow: hidden;
 }
 .typewriter h2 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
