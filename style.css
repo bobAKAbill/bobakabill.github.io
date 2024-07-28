@@ -47,6 +47,9 @@ header {
 .codewars_badge {
   height: 50px;
   width: 500px;
+  margin: auto;
+  display: block;
+  position: relative;
 }
 .profile_picture {
   height: 200px;
