@@ -44,8 +44,11 @@ html {
 header {
   height: 2px;
 }
-
-img {
+.codewars_badge {
+  height: 50px;
+  width: 500px;
+}
+.profile_picture {
   height: 200px;
   width: 200px;
   margin: auto;
