@@ -174,10 +174,12 @@ h1 {
   width: 300px;
   padding: 15px 30px;
   text-align: center;
-  border: 2px solid rgb(241, 125, 125);
+  /* Old, red one */ /*border: 2px solid rgb(241, 125, 125);*/
+  border: 2px solid rgb(178, 157, 222);
   top: 330px;
   clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0 50%);
-  background-color: rgb(243, 87, 87);
+  /* Old, red one */ /*background-color: rgb(243, 87, 87);*/
+  background-color: rgb(147, 112, 219);
   background-repeat: no-repeat;
   opacity: 85%;
   transition: ease-in-out 300ms;
